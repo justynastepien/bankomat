@@ -134,18 +134,6 @@ public
 			Dispatch_protocol => Aperiodic;
 			Compute_Execution_Time => 3 ms .. 5 ms;
 	end wyplac.impl;
-
---	thread klawisze
---		features
---			numer_in: in data port Base_Types::Integer_16;
---			numer_out: out data port Base_Types::Integer_16;
---	end klawisze;
---
---	thread implementation klawisze.impl
---		properties
---			Dispatch_protocol => Aperiodic;
---			Compute_Execution_Time => 1 ms .. 2 ms;
---	end klawisze.impl;
 	
 	
 	thread zdarzenie
